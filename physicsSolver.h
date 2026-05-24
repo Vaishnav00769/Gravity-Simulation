@@ -14,7 +14,7 @@ class PhysicsSolver{
                 i.prev_dxa = i.dxa;
                 i.prev_dya = i.dya;
                 i.x += (i.dxv*dt) + (0.5f*i.dxa*dt*dt);
-                i.y += (i.dyv*dt) + (0.5*i.dya*dt*dt);
+                i.y += (i.dyv*dt) + (0.5f*i.dya*dt*dt);
                 i.dxa = 0;
                 i.dya = 0;
             }
